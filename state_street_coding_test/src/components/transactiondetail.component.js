@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export default class TransactionDetail extends Component {
   constructor(props) {
@@ -31,6 +32,7 @@ export default class TransactionDetail extends Component {
         console.log(error);
       })
   }
+
 
 
   render() {
@@ -81,6 +83,9 @@ export default class TransactionDetail extends Component {
               value={this.state.transactionType}
               />
           </div>
+          <div className="form-group" style={{marginTop : "1em"}}>
+          <Link className="btn btn-primary" to={"/"}>Back</Link>
+        </div>
         </div>
       </form>
     </div>

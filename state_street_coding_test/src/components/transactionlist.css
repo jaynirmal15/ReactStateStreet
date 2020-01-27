@@ -4,15 +4,45 @@
   left: 50%;
   margin: -50px 0px 0px -50px
 }
+h3{
+  margin-bottom: 1em;
+}
+.my_transactions{
+  padding-bottom: 0.3em;
+  border-bottom: black 1px solid;
+}
+.filters{
+  padding-top: 1em;
+  font-weight: bold;
+}
+.accountName{
+  font-weight: bold;
+}
+
 .filter_style{
   position: relative;
   float: left;
-  width: 20px;
+}
+td,th{
+  background-color: white !important;
+  padding-top: 0em !important;
+  padding-bottom: 0em !important;
+}
+.form-personal{
+  padding-left: 3px;
+}
+.filter-per-checkbox{
+  padding: 0.5em;
+}
+.filterCheckbox{
+  background-color: #e9ecef;
+  margin-top: 1.6em;
+  padding-left: 1em;
 }
 .transaction_style{
   position: relative;;
   float: right;
-  width: 80%;
+  width: 77.5%;
 }
 .ouro {
   position: relative;
