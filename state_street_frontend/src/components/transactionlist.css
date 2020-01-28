@@ -32,12 +32,12 @@ td,th{
   padding-left: 3px;
 }
 .filter-per-checkbox{
-  padding: 0.5em;
+  padding: 0.3em;
 }
 .filterCheckbox{
   background-color: #e9ecef;
   margin-top: 1.6em;
-  padding-left: 1em;
+  padding-left: 1.5em;
 }
 .transaction_style{
   position: relative;;
@@ -79,7 +79,7 @@ td,th{
   left: 100%; top: 0;
   height: 100%; width: 100%;
   border-radius: 999px;
-  background: none repeat scroll 0 0 black;
+  background: none repeat scroll 0 0 rgb(115, 108, 212);
   opacity: 0.8;
   -webkit-animation: ui-spinner-rotate-left 3s infinite;
   animation: ui-spinner-rotate-left 3s infinite;
